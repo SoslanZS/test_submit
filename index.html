@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="form _form">
+        <label for="" class="form__inner">
+            E-mail *
+            <input type="email" class="form__input form-val _input-val _email" name="email">
+        </label>
+        <div class="form__block form__inner form__data">
+            <label for="">
+                Номер телефона *
+                <input type="tel" class="form__input form-val _input-val _phon">
+            </label>
+            <label for="">
+                Дополнительный номер
+                <input type="tel" class="form__input">
+            </label>
+        </div>
+        <label for="" class="form__inner">
+            Фамилия *
+            <input type="text" class="form__input form-val _input-val">
+        </label>
+        <label for="" class="form__inner">
+            Имя *
+            <input type="text" class="form__input form-val _input-val">
+        </label>
+        <label for="" class="form__inner">
+            Отчество
+            <input type="text" class="form__input">
+        </label>
+        <label for="" class="form__inner">
+            Дата рождения
+            <div class="form__inner form__data">
+                <input type="number" class="form__input">
+                <input type="text" class="form__input">
+                <input type="number" class="form__input">
+            </div>
+        </label>
+        <label for="" class="form__inner">
+            Пол
+            <div class="form__block form__data">
+                <input type="text" class="form__input">
+                <input type="text" class="form__input">
+            </div>
+        </label>
+        <button type="submit" onclick="validate.valid(this)">Сохранить изменения</button>
+    </form>
+    <script src="min.js"></script>
+</body>
+</html>
